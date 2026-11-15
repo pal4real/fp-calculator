@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    background-color: black;
+    height: 800px;
+    width: 400px;
+    padding-top: 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+#display {
+    display: flex;
+    background-color: gray;
+    box-sizing: border-box;
+    width: 350px;
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+}
+
+.num {
+    display: flex;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    justify-content: center;
+}
+
+.del, .ac {
+    display: flex;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    justify-content: center;
+}
+
+.op, .eq {
+    display: flex;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    justify-content: center;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.first-row, .second-row, .third-row {
+    display: flex;
+    gap: 10px;
+}
+
+#buttons-2, #buttons-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
